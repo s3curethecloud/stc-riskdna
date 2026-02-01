@@ -1,3 +1,43 @@
+# SecureTheCloud – Human-to-Cloud Risk Engine
+
+## Overview
+The Human-to-Cloud Risk Engine quantifies organizational cyber risk by correlating
+human identity behavior with cloud infrastructure exposure.
+
+Unlike traditional security tools that focus only on infrastructure or alerts,
+this platform measures how employee actions directly influence cloud attack surface.
+
+## Why This Matters
+Over 80% of cloud breaches involve compromised identities.
+Security teams lack a way to quantify human-driven cloud risk in a way
+that executives and HR leaders can understand.
+
+This project closes that gap.
+
+## Key Capabilities
+- Identity behavior risk scoring
+- Privilege exposure analysis
+- Cloud misconfiguration impact correlation
+- Executive and HR-friendly dashboards
+
+## Architecture
+- Python (FastAPI) risk engine
+- Policy-as-Code (Terraform, Checkov)
+- Simulated IAM & cloud telemetry (production-ready design)
+- Secure-by-design landing zone
+
+## Outcomes
+- Quantified human attack surface
+- Reduced identity-driven cloud risk
+- Board-ready security posture reporting
+
+## Skills Demonstrated
+- Cloud Security Architecture
+- Identity & Zero Trust Design
+- Infrastructure as Code
+- Policy as Code
+- Risk Modeling & Executive Communication
+
 ```
 stc-riskdna/
 ├── README.md                     # Executive + recruiter narrative
